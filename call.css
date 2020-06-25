@@ -1,4 +1,5 @@
 body {
-  background-image: url("image/call_screen.png");
+    background-size: 1280px 720px;
+	background-image: url("image/call_screen.png");
   background-repeat: no-repeat;
 }
