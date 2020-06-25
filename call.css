@@ -1,5 +1,11 @@
 body {
-    background-size: 1280px 720px;
+  width: 80%;
+  height: 80%;
+  padding-top: 50%;
+
 	background-image: url("image/call_screen.png");
   background-repeat: no-repeat;
+
+  background-position: center center;
+  background-size: cover;
 }
