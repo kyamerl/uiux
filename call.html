@@ -5,10 +5,28 @@
 <link rel="stylesheet" type="text/css" href="./call.css">
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<title>HTML入門-コードの表示</title>
+<title>通話画面</title>
 </head>
 <!-- ><div style="background: url(image/call_screen.png) no-repeat 120px 8px;"> -->
 <body>
+<label for="openSidebarMenu" class="sidebarIconToggle">
+  <div class="spinner diagonal part-1"></div>
+  <div class="spinner horizontal"></div>
+  <div class="spinner diagonal part-2"></div>
+</label>
+  <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+  <div id="sidebarMenu">
+    <ui class="sidebarMenuInner">
+      <li><span> 最新情報 </span></li>
+      <li><span> チャット </span></li>
+      <li><span> チーム </span></li>
+      <li><span> 課題 </span></li>
+      <li><span> 予定表 </span></li>
+      <li><span> 通話 </span></li>
+      <li><span> ファイル </span></li>
+      <li><span> ...  </span></li>
+    </ui>
+  </div>
   <div class="container">
     <div class="row align-items-end">
       <div class="col text-center">
