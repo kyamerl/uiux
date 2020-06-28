@@ -10,11 +10,11 @@ body {
 }
 
 #sidebarMenu {
-    height: 497px;
+    height: 100%;
     position: fixed;
     left: 0;
-    width: 200px;
-    margin-top: 80px;
+    width: 250px;
+    margin-top: 20px;
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
     background-color: #373643;
@@ -34,14 +34,47 @@ body {
     list-style: none;
     color: #fff;
     text-transform: uppercase;
+    text-align: center;
     font-weight: bold;
     padding: 20px;
     cursor: pointer;
+    background-position: 10px 2px;
+    background-repeat: no-repeat;
+    background-size: 58px auto;
     border-bottom: 1px solid rgba(5, 255, 255, 0.10);
 }
 
+li.attention {
+    background-image: url("image/NewAttention.png");
+}
+
+li.chat {
+    background-image: url("image/Chat.png");
+}
+
+li.team {
+    background-image: url("image/Team.png");
+}
+
+li.task {
+    background-image: url("image/Task.png");
+}
+
+li.schedule {
+    background-image: url("image/Schedule.png");
+}
+
+li.call {
+    background-image: url("image/Call.png");
+}
+
+li.file {
+    background-image: url("image/File.png");
+}
+
+
 .sidebarMenuInner li span{
-    display: block;
+    display: inline-block;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.50);
 }
@@ -60,11 +93,11 @@ input[type=checkbox] {
     transition: all 0.3s;
     box-sizing: border-box;
     cursor: pointer;
-    position: absolute;
+    position: relative;
     z-index: 99;
     height: 100%;
     width: 100%;
-    top: 50px;
+    top: 35px;
     left: 15px;
     height: 22px;
     width: 22px;
