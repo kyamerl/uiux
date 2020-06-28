@@ -1,13 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 body {
-  background-size: cover;
-	background-image: url("image/call_screen.png");
+    z-index: 10;;
+    background: #373643  url("image/call_screen.png");
+    background-size: cover;
+ /* background-image: url("image/call_screen.png");*/
   background-repeat: no-repeat;
 }
 
 .row {
   min-height: 40rem;
 }
+
+.shadow {
+    position: absolute;
+    top: 1000px;
+    left: 50px;
+}
+
+#shadowUI {
+    position: absolute;
+    width: 100%;
+    top: 650px;
+    height: 500px;
+    color: #373643;
+    background-color: #373643;
+}
+
 
 #sidebarMenu {
     height: 100%;
