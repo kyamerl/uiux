@@ -10,20 +10,24 @@ body {
 }
 
 #sidebarMenu {
-    height: 100%;
+    height: 497px;
     position: fixed;
     left: 0;
-    width: 250px;
-    margin-top: 60px;
+    width: 200px;
+    margin-top: 80px;
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
     background-color: #373643;
+    border: 1px solid rgba(5, 255, 255, 0.10);
 }
 
 .sidebarMenuInner{
-    margin:0;
-    padding:0;
-    border-top: 1px solid rgba(255, 25, 255, 0.10);
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    /*background-color: #373643;
+    border: 1px solid rgba(5, 255, 255, 0.10);
+    */
 }
 
 .sidebarMenuInner li{
@@ -60,7 +64,7 @@ input[type=checkbox] {
     z-index: 99;
     height: 100%;
     width: 100%;
-    top: 22px;
+    top: 50px;
     left: 15px;
     height: 22px;
     width: 22px;
