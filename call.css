@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 body {
   background-size: cover;
-	background-image: url("image/call_screen.png");
+  background-image: url("image/call_screen.png");
   background-repeat: no-repeat;
+  position: relative;
+}
+
+body::after {
+  content: '';
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 .row {
