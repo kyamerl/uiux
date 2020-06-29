@@ -1,37 +1,19 @@
-*{
-    margin: 0;
-    padding: o;
-}
-
-html {
+html,body{
     height: 100%;
 }
-
-body{
+.top{
+    height: 92.5%;
+}
+.row{
     height: 100%;
     width: 100%;
 }
-
-#header {
-    background-color:green;
-    height: 5%;
-    width: 100%;
+.header{
+    height: 7.5%;
 }
-
-#main{
-    height: 95%;
+.main_image{
+    height: auto;
 }
-
-#private {
-    background-color:red;
-    width: 10%;
-    height: 100%;
-
-    float: left
-}
-
-#team{
-    background-color: aqua;
-    width: auto;
-    height: 100%;
+img{
+    object-fit: contain; 
 }
