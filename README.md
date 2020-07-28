@@ -1,2 +1,2 @@
-# uiux-pyside2
+# uiux
 ui実装の演習
